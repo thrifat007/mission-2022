@@ -39,7 +39,7 @@ Mission 2022 is a Landing Page made with HTML & CSS. Perfect to promote your wor
 
 
 ```html
-    <p>https://github.com/thrifat007/mission-2022.git</p>
+    https://github.com/thrifat007/mission-2022.git
 ```
 [Back To The Top](#mission-2022)
 
