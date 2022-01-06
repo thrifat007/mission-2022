@@ -70,7 +70,7 @@ section.section_one{
 
 section.section_one .half h1.section_title{
     font-family: 'Yeseva One', cursive;
-    font-size: 55px;
+    font-size: 56px;
     color: #2b2c34;
     line-height: 65px;
     font-weight: 400;
@@ -98,13 +98,13 @@ section.section_two{
 section.section_two h1, section.section_five h1{
     font-weight: 700;
     text-align: center;
-    font-size: 50px;
+    font-size: 56px;
     color: #2b2c34;
 }
 
 section .half h2{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 45px;
 }
 
@@ -131,7 +131,7 @@ section.section_two .full-div .half img{
 }
 
 section.section_two .full-div .half h3{
-   font-size: 20px;
+   font-size: 32px;
    font-weight: 600;
    margin: 10px 0;
 }
@@ -205,6 +205,44 @@ section.section_four .half-left{
 
 section.section_four .half-right{
     width: 35%;
+}
+/* section_five */
+
+section.section_five .full-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    margin: 50px 0;
+
+}
+section.section_five h2{
+    font-family: 'Yeseva One', cursive;
+}
+section.section_five .half-left{
+    width: 35%;
+    padding: 50px;
+    border-right: 2px solid #6246ea;
+}
+
+section.section_five .half-right{
+    width: 35%;
+}
+
+form{
+    padding: 50px;
+}
+form .form-input{
+    width: 100%;
+    padding: 15px;
+    margin:5px;
+    border-radius: 5px;
+    border: 2px solid #ffad5a;
+    font-family: 'Poppins', sans-serif;
+}
+
+form .button-input{
+    margin:10px 5px;
 }
 
 
