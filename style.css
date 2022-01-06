@@ -17,7 +17,7 @@ body{
 /* section common*/
 
 
-.yellow{
+.title{
     color: #e45858;
 }
 .tomato{
@@ -70,7 +70,7 @@ section.section_one{
 
 section.section_one .half h1.section_title{
     font-family: 'Yeseva One', cursive;
-    font-size: 50px;
+    font-size: 55px;
     color: #2b2c34;
     line-height: 65px;
     font-weight: 400;
@@ -99,12 +99,12 @@ section.section_two h1, section.section_five h1{
     font-weight: 700;
     text-align: center;
     font-size: 50px;
-    color: #13103a;
+    color: #2b2c34;
 }
 
 section .half h2{
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 45px;
 }
 
@@ -123,7 +123,7 @@ section.section_two .full-div .half{
     width: 25%;  
     padding: 25px;
     border-radius: 30px;
-    box-shadow: 3px 3px 10px #808080;
+    box-shadow: 5px 5px 10px #d3d1d1;
 }
 section.section_two .full-div .half img{
     width: 50%;  
@@ -155,6 +155,56 @@ section.section_two .full-div .half-middle{
 section.section_two .full-div .half-right{
     background: #fff4d6 ; 
     
+}
+/* section_three */
+section.section_three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    margin: 50px 0;
+    background: url("images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center left;
+}
+
+
+section.section_three .half-left{
+    width: 35%;
+}
+
+section.section_three .half-right{
+    width: 45%;
+    padding-right: 5%;
+}
+
+section.section_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    margin: 150px 0;
+    background: url("images/shapes/shape-2.png");
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    background-size: 15%;
+    background-position: 90% 90%;
+}
+
+section.section_four h2, section.section_four p{
+    text-align: right;
+}
+section.section_four a{
+    float: right;
+}
+section.section_four .half-left{
+    width: 45%;
+    padding: 50px;
+}
+
+section.section_four .half-right{
+    width: 35%;
 }
 
 
